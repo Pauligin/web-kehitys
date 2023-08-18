@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6252a5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #bbaa0d;
+}
+h2{
+    color: #050505;
+}
+
+p {
+    color: #020202;
+}
+
+button {
+    background-color: #15c71e;
+    color: rgb(221, 37, 37);
+    border: none;
+    padding: 20px 20px;
+    
+}
+img{
+    height: 10%;
+    width: 50%;
+}
