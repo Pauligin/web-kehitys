@@ -1,0 +1,15 @@
+ul{
+    border: 2px solid orange;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+ol{
+    border: 2px solid purple;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+h1{
+    font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}

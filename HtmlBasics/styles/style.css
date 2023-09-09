@@ -1,0 +1,10 @@
+h1, h2{
+    color:purple;
+}
+p{
+    color: gray;
+    font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
