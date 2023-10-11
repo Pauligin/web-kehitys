@@ -1,0 +1,382 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teraset.net Verkkokauppa - Tervetuloa</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+
+<body>
+
+  <div class="wholecontent">
+  
+  <div class="terasetlogo-container">
+  
+  <div class="terasetlogo-container-osio-1">
+  <a href="index.php"><img src="images/teraset_logo_teksti.png" width="100%" height="auto"></a>
+  </div>
+  
+  <div class="terasetlogo-container-osio-2">
+  
+  <div class="terasetlogo-container-osio-2-right">
+  
+  <a class="header" href="https://goo.gl/maps/wmsyUgDrCq92" target="_blank">
+  
+  <div class="terasetlogo-container-osio-2-right-row-1-adjust">
+  <font color="#349bd7" text-align="right"><i class="fas fa-map-marker-alt fa-lg" data-fa-transform="grow-2"></i></font></div>&nbsp;
+  
+  Teollisuuskatu 21, 00510 Helsinki</a>
+  <br>
+  <font color="#349bd7"><i class="fas fa-clock fa-lg" data-fa-transform="grow-2"></i></font>&nbsp;&nbsp;Myymälä avoinna arkisin klo 10-18
+  </div>
+  
+  <div class="terasetlogo-container-osio-2-left">
+  <a class="header" href="tel:+3589533780">
+  <font color="#349bd7"><i class="fas fa-phone fa-lg" data-fa-transform="grow-2"></i></font>&nbsp;&nbsp;(09) 533 780</a>
+  
+  <br>
+  <a class="header" href="mailto:&#109;&#121;&#121;&#110;&#116;&#105;&#064;&#116;&#101;&#114;&#097;&#115;&#101;&#116;&#046;&#110;&#101;&#116;">
+  <font color="#349bd7"><i class="fas fa-envelope fa-lg" data-fa-transform="grow-2"></i></font>&nbsp;&nbsp;&#109;&#121;&#121;&#110;&#116;&#105;&#064;&#116;&#101;&#114;&#097;&#115;&#101;&#116;&#046;&#110;&#101;&#116;
+  </a>
+  
+  </div>
+  
+  <div class="topnav">
+   
+    <a  class="active"  href='/index.php'><i class="fas fa-home fa-lg" data-fa-transform="grow-2"></i></a> 
+    <a class="hidesmallmobile " href='/product_offers.php'>Tarjoukset</a>
+    <a class="hidesmallmobile " href='/second_hand.php'>Käytetyt</a>
+    <a class="hidesmallmobile " href='/huolto.php'>Huolto</a>
+    <a class="hidemobile " href='/kierratys.php'>Kierrätys</a>
+    <a class="hidemobile " href='/yritysinfo.php'>Yritys</a>
+    <a class="hidemobile " href='/top10.php'>TOP-10</a>
+    <a class="hidesmallmobile " href='/login.php'>Omat sivut</a>
+    
+  
+  
+  <div class="shoppingcart-container">
+  
+  
+  <a  href="shopping_cart.php">
+  
+  <i class="fas fa-shopping-cart fa-lg"></i>&nbsp; 
+     0.00  €	 
+        </a>
+        
+        <a class="showmobileonly" href='#' onclick="show_menu()"><i class="fas fa-bars fa-lg" data-fa-transform="grow-2"></i></a>
+          
+      </div>
+  
+ 
+  <div class="search-container">
+     
+     <FORM action="https://www.teraset.net/product_search.php" method="POST">    
+       <input type="text" placeholder="Etsi tuotetta.." name="phrase">
+       
+       <button type="submit"><i class="fas fa-search fa-lg"></i></button>
+      </form>
+    </div>
+    </div>
+  
+  
+  <div class="overlaytausta" id="overlay"></div>
+  
+  <div class="maincontainer">
+  
+  <div class="maincontainer-osio-1" id="menu">
+  <div class="white_background">
+  <a class="showmobileonly closemenu" href='#' onclick="hide_menu()"><i class="fas fa-times-circle fa-lg" data-fa-transform="grow-2"></i></a>
+  
+  <TABLE id="tuoteosastotaulu" cellpadding=3 cellspacing=0 border=0 width="190px">
+  
+  
+          <TR class="showmobileonly_row"><TD class="nav_otsikot"><P class="nav_otsikot showmobileonly"><i class="fas fa-bars fa-lg" data-fa-transform="grow-6"></i>&nbsp;&nbsp;NAVIGOINTI</P></TD></TR>
+          
+          <TR class="showmobileonly_row"><TD class="nav_closed"><P class="nav_closed showmobileonly"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="/index.php" class="nav_closed">Etusivu</a></P></TD></TR>
+          <TR class="showmobileonly_row"><TD class="nav_closed"><P class="nav_closed showmobileonly"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="/product_offers.php" class="nav_closed">Tarjoukset</a></P></TD></TR>
+          <TR class="showmobileonly_row"><TD class="nav_closed"><P class="nav_closed showmobileonly"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="/second_hand.php" class="nav_closed">Käytetyt</a></P></TD></TR>
+          <TR class="showmobileonly_row"><TD class="nav_closed"><P class="nav_closed showmobileonly"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="/huolto.php" class="nav_closed">Huolto</a></P></TD></TR>
+          <TR class="showmobileonly_row"><TD class="nav_closed"><P class="nav_closed showmobileonly"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="/kierratys.php" class="nav_closed">Kierrätys</a></P></TD></TR>
+          <TR class="showmobileonly_row"><TD class="nav_closed"><P class="nav_closed showmobileonly"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="/yritysinfo.php" class="nav_closed">Yritysinfo</a></P></TD></TR>
+          <TR class="showmobileonly_row"><TD class="nav_closed"><P class="nav_closed showmobileonly"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="/top10.php" class="nav_closed">TOP-10</a></P></TD></TR>
+          <TR class="showmobileonly_row"><TD class="nav_closed"><P class="nav_closed showmobileonly"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="/login.php" class="nav_closed">Omat sivut</a></P></TD></TR>
+          
+          
+          <TR><TD class="nav_otsikot"><P class="nav_otsikot"><i class="fas fa-laptop fa-lg" data-fa-transform="grow-6"></i>&nbsp;&nbsp;TIETOKONEET</P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Pelitietokoneet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Käytetyt pöytäkoneet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Käytetyt kannettavat</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Uudet kannettavat</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Uudet pöytätietokoneet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Käytetyt tabletit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Käytetyt puhelimet</a></P></TD></TR>
+  
+  <TR><TD class="nav_otsikot"><P class="nav_otsikot"><i class="fas fa-hdd fa-lg" data-fa-transform="grow-6"></i>&nbsp;&nbsp;KOMPONENTIT</P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Päivityspaketit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Emolevyt</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Muistit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Prosessorit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Kiintolevyt</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">CD/DVD/Blu-ray</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Näytönohjaimet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Kotelot</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Virtalähteet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Verkkotuotteet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Jäähdytys</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Muut</a></P></TD></TR>
+  
+  <TR><TD class="nav_otsikot"><P class="nav_otsikot"><i class="fas fa-microchip fa-lg" data-fa-transform="grow-6"></i>&nbsp;&nbsp;KANNETTAVIEN OSAT</P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Akut</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Laturit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Kiintolevyt</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Muistit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Näppäimistöt</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Optiset asemat</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Prosessorit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Telakointiasemat</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Laukut</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Muut</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Verkkokortit</a></P></TD></TR>
+  
+  <TR><TD class="nav_otsikot"><P class="nav_otsikot"><i class="fas fa-keyboard fa-lg" data-fa-transform="grow-6"></i>&nbsp;&nbsp;OHEISLAITTEET</P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Näytöt</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Hiiret</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Näppäimistöt</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">USB-muistitikut</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Ulkoiset kiintolevyt</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Webkamerat</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Kaiuttimet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Kuulokkeet ja mikrofonit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Kortinlukijat</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Tulostimet ja skannerit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Virtasuojat ja jatkojohdot</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Muut</a></P></TD></TR>
+  
+  <TR><TD class="nav_otsikot"><P class="nav_otsikot"><i class="fas fa-battery-half fa-lg" data-fa-transform="grow-6"></i>&nbsp;&nbsp;TARVIKKEET</P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">CD/DVD-levyt</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Muistikortit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Kaapelit ja adapterit</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Puhdistus</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Paristot</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Tulostintarvikkeet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">VESA-telineet</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Muut</a></P></TD></TR>
+  
+  <TR><TD class="nav_otsikot"><P class="nav_otsikot"><i class="fas fa-folder-open fa-lg" data-fa-transform="grow-6"></i>&nbsp;&nbsp;OHJELMISTOT</P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Windows</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Office</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Tietoturva</a></P></TD></TR>
+  
+  <TR><TD class="nav_otsikot"><P class="nav_otsikot"><i class="fas fa-handshake fa-lg" data-fa-transform="grow-6"></i>&nbsp;&nbsp;PALVELUT</P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Asennukset</a></P></TD></TR>
+  
+  <TR><TD class="nav_closed"><P class="nav_closed"><img style="vertical-align:-2px" src="images/tuoteryhmat_puu.gif" width="11" height="14" alt=""><a href="" class="nav_closed">Huoltotyöt</a></P></TD></TR>
+  
+  </TABLE>
+  
+  
+  <div class="hidemobile">
+  
+  <img style="vertical-align:top; display: none;" src="images/tuoteryhmat_alaosa.jpg" width="190" height="12">
+  
+  
+  
+  </div>
+  <div class="maincontainer-osio-2">
+ 
+  <center><div class="banner-bottom-margin"><a href=product_offers.php><img src=images/teraset-tietokonekauppa-6-polvi-alennukset-2023.jpg border=0></a></div></center>
+  
+ 
+  <div style="text-align:center" class="hidemobile">
+  
+  <span class="dot" onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span><span class="dot" onclick="currentSlide(3)"></span><span class="dot" onclick="currentSlide(4)"></span><span class="dot" onclick="currentSlide(5)"></span><span class="dot" onclick="currentSlide(6)"></span><span class="dot" onclick="currentSlide(7)"></span><span class="dot" onclick="currentSlide(8)"></span><span class="dot" onclick="currentSlide(9)"></span><span class="dot" onclick="currentSlide(10)"></span></div>
+
+  </DIV>
+  
+  
+  <div class="info-container"><div class="info-container-otsikko">TIESITKÖ?</div><br><font class="smallbasic4B"><font class="smallbasic4B">Juuri nyt meillä on yli <font class="smallbasic4C"><b>1110</b></font> tietokonetta myynnissä!</font><ul id="featurePanels" class="fa-ul"><li id="didyouknow"><font color=#FFFFFF><i class="fa-li fa fa-check-circle fa-2x"></font></i>Teollisuuskadulle on helppo tulla niin julkisilla kuin omalla autollakin.</li><li id="didyouknow"><font color=#FFFFFF><i class="fa-li fa fa-check-circle fa-2x"></font></i>Kaksi kovaa periaatettammme: valikoitu valikoima ja kaikki omassa varastossa.</li><li id="didyouknow"><font color=#FFFFFF><i class="fa-li fa fa-check-circle fa-2x"></font></i>Teraset on tietotekniikkaa alusta loppuun - tutustu myös moninaisiin kierrätyspalveluihimme.</li></ul></font></div>
+  
+  
+  &nbsp;
+  
+  <div class="banner-bottom-margin">
+  <center><img src=images/y-merkki.png width="80%" border=0></center>
+  </div>
+ 
+  
+  <div class="footer-taytto">
+  
+  
+  <div class="alafooter-container-whole">
+  
+  
+  <div class="alafooter-container">
+  
+  
+  <img class="mainosmies-puhekupla" src="images/teraset_puhekupla200x218.png">   
+  
+  <img class="mainosmies-zoom" src="images/Sepi_irroitettu_kuvasta2.jpg">
+  
+  
+  
+  <div class="puhekuplateksti">
+  <font class="smallbasic7">
+  Tuleeko mieleesi kysyttävää? Terasetin tiimi auttaa mielellään. Chattaa, soita, laita sähköpostia tai tule käymään!
+  </font>
+  </div>
+  
+  
+    <div class="alafooter-osio-1">
+    
+        <font class="smallbasic6Dfooter">
+        
+        Teraset Finland Oy</font><font class="smallbasic6D2footer"><br><a class="footer" href="https://goo.gl/maps/wmsyUgDrCq92" target="_blank">Teollisuuskatu 21, 00510 Helsinki</a><br><a class="footer" href="tel:+3589533780"><i class="fas fa-phone fa-lg"></i>&nbsp;&nbsp;(09) 533 780</a><br>  	
+        <a class="footer" href="mailto:&#109;&#121;&#121;&#110;&#116;&#105;&#064;&#116;&#101;&#114;&#097;&#115;&#101;&#116;&#046;&#110;&#101;&#116;">
+        <i class="fas fa-envelope fa-lg"></i>&nbsp;&nbsp;&#109;&#121;&#121;&#110;&#116;&#105;&#064;&#116;&#101;&#114;&#097;&#115;&#101;&#116;&#046;&#110;&#101;&#116;</a>
+      <br>
+        Avoinna arkisin klo 10-18<br>
+        Y-tunnus 1750252-5 
+        
+    
+    </font><font class="smallbasic6D3footer">
+  
+    <p>
+    <span class="fa-stack fa-2x">
+    <a class="some" href="https://www.facebook.com/teraset.net/" target="_blank"><i class="fa fa-circle fa-stack-2x icon-background"></i>
+    <i class="fab fa-facebook-f fa-stack-1x"></i></a>
+    </span>
+  
+    <span class="fa-stack fa-2x">
+    <a class="some" href="https://www.instagram.com/terasetfinland/" target="_blank"><i class="fa fa-circle fa-stack-2x icon-background"></i>
+    <i class="fab fa-instagram fa-stack-1x"></i></a>
+    </span>  
+    
+    </font>
+  
+    <p>
+    <font class="smallbasic6D-tk-footer">
+    <a class="footer" target="_blank" href=http://www.tietokonekierratys.fi/>Tietokonekierrätys.fi</a></font>
+    <font class="smallbasic6D3footer"><br>
+    Powered by Teraset Finland Oy</font><br>
+    
+    <font class="smallbasic6D2footer">
+    
+    <a class="footer" href="mailto:&#107;&#105;&#101;&#114;&#114;&#097;&#116;&#121;&#115;&#064;&#116;&#101;&#114;&#097;&#115;&#101;&#116;&#046;&#110;&#101;&#116;">
+    <i class="fas fa-envelope fa-lg"></i>&nbsp;&nbsp;&#107;&#105;&#101;&#114;&#114;&#097;&#116;&#121;&#115;&#064;&#116;&#101;&#114;&#097;&#115;&#101;&#116;&#046;&#110;&#101;&#116;</a>
+    
+    
+    </font><font class="smallbasic6D3footer">
+    
+    <p>
+    <span class="fa-stack fa-2x">
+    <a class="some" href="https://www.facebook.com/Tietokonekierratys" target="_blank"><i class="fa fa-circle fa-stack-2x icon-background"></i>
+    <i class="fab fa-facebook-f fa-stack-1x"></i></a>
+    </span>
+    
+    
+    </div>
+    
+    
+    <div class="alafooter-osio-1A">
+    <a href=contact.php><img class="footerkuvat" src=images/teraset_myymala_ulkoa_pieni.png></a> 
+    <a href=kierratys.php><img class="footerkuvat" src=images/teraset_halli_2.png></a>
+    </div>
+    
+    <div class="alafooter-osio-2"><font class="smallbasic6Dfooter">
+    
+    Info</font>
+    <font class="smallbasic6D2footer"><br>
+    
+    <div class="foot-os2-column">
+    
+    
+    <a class="footer" href=>Yhteystiedot, aukiolot ja kartta</a><br>
+    <a class="footer" href=>Toimitus- ja maksuehdot</a><br>
+    <a class="footer" href=>Takuuasiat</a><br>
+    <a class="footer" href=>Käytettyjen kuntoluokitukset</a><br>
+    <a class="footer" href=>Huolto</a><br>
+    <a class="footer" href=>Yhteydenotto- ja palautelomake</a><br>
+    
+    </div>
+    
+    
+    <div class="foot-os2-column">
+    
+    <a class="footer" href=>Yritysmyynti ja leasing</a><br>
+    <a class="footer" href=>Kierrätys- ja elinkaaripalvelut</a><br>
+    <a class="footer" href=>Työpaikat</a><br>
+    <a class="footer" href=>Jälleenmyyjäksi</a><br>
+    <a class="footer" href=>Rekisteri- ja tietosuojaseloste</a><br>
+    <a class="footer" target="_blank" href=http://www.tietokonekierratys.fi/>Tietokonekierrätys.fi</a><br>
+    </div>
+
+    </div>
+    
+    <div class="alafooter-osio-3">
+    </div>  
+    </font>  
+  </div>
+  <div class="maksutavat">
+  <img class="maksutavat" src="images/maksutavat_walley.jpg">
+  </div>
+  
+  <font class="smallbasic6D2footer"><center><br>Kaikkien tuotteiden hinnat sisältävät arvonlisäveron (24.00 %).<br></font><font class="smallbasic6D3footer">© 2002-2023 Teraset Finland Oy. Kaikki oikeudet pidätetään. Photos by Daniel Cheung on Unsplash. Viimeksi päivitetty 20.09.2023.</font></center>
+
+</body>
+</html>
